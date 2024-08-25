@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <button class="delete"><i id="delete" class="fa fa-trash-alt fa-2x"></i></button>
         
         </div>
-           
+        
             <textarea></textarea>
         `;
 
@@ -25,7 +25,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const deleteButton = note.querySelector('.delete');
         const saveButton = note.querySelector('.save');
         const textarea = note.querySelector('textarea');
-
 
 
         editButton.addEventListener('click', () => {
